@@ -26,7 +26,12 @@ else {
 
 
 function isLongList(array) {
-if (array.length <= 10)
+if (array.length >= 10){
+  return true;
+}
+else {
+  return false;
+}
 }
 
 
