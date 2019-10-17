@@ -1,21 +1,32 @@
-function getFirstItemFrom() {
+function getFirstItemFrom(array) {
+  return array[0];
 
 }
 
-function getLastItemFrom() {
-
+function getLastItemFrom(array) {
+return array[array.length-1];
 }
 
-function getIndex3() {
-
+function getIndex3(array) {
+  if (array.length <= 3 ){
+    return array[array.length-1];
+  }
+  return array[3];
 }
 
-function firstItemIsNumber() {
-
+function firstItemIsNumber(array) {
+let indexArray = array[0];
+if (typeof(indexArray) === 'number'){
+  return true;
+}
+else {
+  return false;
+}
 }
 
-function isLongList() {
 
+function isLongList(array) {
+if (array.length <= 10)
 }
 
 
