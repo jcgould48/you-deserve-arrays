@@ -14,6 +14,8 @@ function getIndex3(array) {
   return array[3];
 }
 
+
+
 function firstItemIsNumber(array) {
 let indexArray = array[0];
 if (typeof(indexArray) === 'number'){
@@ -22,6 +24,7 @@ if (typeof(indexArray) === 'number'){
 else {
   return false;
 }
+//return typeof array[0] === 'number'; better answer 
 }
 
 
@@ -32,6 +35,7 @@ if (array.length >= 10){
 else {
   return false;
 }
+// return array.length >=10;
 }
 
 
